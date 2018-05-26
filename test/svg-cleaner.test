@@ -1,0 +1,31 @@
+#!/bin/sh
+
+## hyphop ##
+
+D=`dirname "$0"`
+cd $D
+
+IN=svg-cleaner.svg
+MDS=md5sum.info
+
+TMP=/tmp/svg-cleaner-tests
+
+[ -d "$TMP" ] || mkdir -p $TMP
+
+OUT=$TMP/svg-cleaned.svg
+
+echo "[i] RUN ../svg-cleaner $IN > $OUT" >&2
+
+../svg-cleaner $IN > $OUT
+IN_SIZE=`stat -c%s $IN`
+OUT_SIZE=`stat -c%s $OUT`
+
+echo "[i] $IN ($IN_SIZE) => $OUT ($OUT_SIZE)" >&2
+
+cp $IN $MDS $TMP
+
+cd $TMP
+
+md5sum -c $MDS >&2
+
+

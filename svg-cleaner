@@ -34,6 +34,10 @@ svg-cleaner - could help you to clean up your SVG files from unnecessary data
     svg-cleaner < IN.svg > OUT.svg
     svg-cleaner IN.svg > OUT.svg
 
+=head1 TEST
+
+`./test/svg-cleaner.test` - [simple svg clean test](test/)
+
 =head1 INSTALL
 
     wget https://raw.githubusercontent.com/hyphop/svg-cleaner/master/svg-cleaner
@@ -89,6 +93,10 @@ L<https://raw.githubusercontent.com/renjiec/SVGCleaner/master/svgcleaner.pl>
 
     perl
     XML::Twig
+
+# HYPHOP open-sources
+
+https://hyphop.github.io/
 
 =cut 
 
@@ -1066,7 +1074,7 @@ sub bs_path {
 
 # подпрограмма создающая строку с описанием элемента (имена элементов, атрибуты и их значения)
 sub desc_elt {
-  my $desc_elt;
+  my $desc_elt = '';
   foreach my $elt ($_[0]->descendants_or_self) {
     $desc_elt = $desc_elt.$elt->name;
     foreach my $att ($elt->att_names) {
