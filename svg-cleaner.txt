@@ -1,6 +1,6 @@
 ABOUT
     svg-cleaner - could help you to clean up your SVG files from unnecessary
-    data
+    data ![svg-cleaner](test/svg-cleaned.svg)
 
 FEATURES
         + just one file 
@@ -14,7 +14,7 @@ USAGE EXAMPLES
         svg-cleaner IN.svg > OUT.svg
 
 TEST
-    C<test/svg-cleaner.test> - simple svg clean
+    test/svg-cleaner.test - simple svg clean test
     <https://github.com/hyphop/svg-cleaner/tree/master/test>
 
 INSTALL
@@ -24,6 +24,7 @@ INSTALL
 NOTE
     hi guys ! i have get it from there
     <https://github.com/renjiec/SVGCleaner> download only one perl file
+    svgcleaner.pl
     <https://raw.githubusercontent.com/renjiec/SVGCleaner/master/svgcleaner.
     pl> its was very poor code quality - fails & not runnable ((( i have fix
     some ugly places only for usable condition! looks like its worked now!
