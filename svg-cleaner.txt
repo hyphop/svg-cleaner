@@ -14,7 +14,7 @@ USAGE EXAMPLES
         svg-cleaner IN.svg > OUT.svg
 
 TEST
-    ./test/svg-cleaner.test - simple svg clean
+    C<test/svg-cleaner.test> - simple svg clean
     <https://github.com/hyphop/svg-cleaner/tree/master/test>
 
 INSTALL

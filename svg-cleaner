@@ -19,7 +19,8 @@
 
 =head1 ABOUT
 
-svg-cleaner - could help you to clean up your SVG files from unnecessary data
+F<svg-cleaner> - could help you to clean up your SVG files from unnecessary data
+F<![svg-cleaner](test/svg-cleaned.svg)>
 
 =head1 FEATURES
 
@@ -36,7 +37,7 @@ svg-cleaner - could help you to clean up your SVG files from unnecessary data
 
 =head1 TEST
 
-./test/svg-cleaner.test - simple svg clean L<https://github.com/hyphop/svg-cleaner/tree/master/test>
+F<test/svg-cleaner.test> - simple svg clean L<test|https://github.com/hyphop/svg-cleaner/tree/master/test>
 
 =head1 INSTALL
 
@@ -49,7 +50,7 @@ hi guys !
 i have get it from there 
 L<https://github.com/renjiec/SVGCleaner>
 download only one perl file
-L<https://raw.githubusercontent.com/renjiec/SVGCleaner/master/svgcleaner.pl>
+L<svgcleaner.pl|https://raw.githubusercontent.com/renjiec/SVGCleaner/master/svgcleaner.pl>
 its was very poor code quality - fails & not runnable (((
 i have fix some ugly places only for usable condition!
 looks like its worked now!
