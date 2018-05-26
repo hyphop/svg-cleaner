@@ -36,7 +36,7 @@ svg-cleaner - could help you to clean up your SVG files from unnecessary data
 
 =head1 TEST
 
-`./test/svg-cleaner.test` - [simple svg clean test](test/)
+./test/svg-cleaner.test - simple svg clean L<https://github.com/hyphop/svg-cleaner/tree/master/test>
 
 =head1 INSTALL
 
@@ -94,7 +94,7 @@ L<https://raw.githubusercontent.com/renjiec/SVGCleaner/master/svgcleaner.pl>
     perl
     XML::Twig
 
-# HYPHOP open-sources
+=head1 HYPHOP open-sources
 
 https://hyphop.github.io/
 
@@ -108,7 +108,7 @@ exec perldoc => $0 if ( join "" => @ARGV ) =~ /-{1,2}h(elp)?/;
 `perldoc -o Markdown "$0" > "$0.md"`, exit 0
   if ( join "" => @ARGV ) =~ /--md/;
 `perldoc -o Text "$0" > "$0.txt"`, exit 0
-  if ( join "" => @ARGV ) =~ /--text/;
+  if ( join "" => @ARGV ) =~ /--txt/;
 exec perldoc => "-o Man" => "$0"
   if ( join "" => @ARGV ) =~ /--man/;
 `$0 --md; git add -A && git commit -m "$now" && git push`, exit 0

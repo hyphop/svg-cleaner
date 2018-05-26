@@ -15,6 +15,10 @@ svg-cleaner - could help you to clean up your SVG files from unnecessary data
     svg-cleaner < IN.svg > OUT.svg
     svg-cleaner IN.svg > OUT.svg
 
+# TEST
+
+./test/svg-cleaner.test - simple svg clean [https://github.com/hyphop/svg-cleaner/tree/master/test](https://github.com/hyphop/svg-cleaner/tree/master/test)
+
 # INSTALL
 
     wget https://raw.githubusercontent.com/hyphop/svg-cleaner/master/svg-cleaner
@@ -57,3 +61,7 @@ Best Regards HypHop // Art
 
     perl
     XML::Twig
+
+# HYPHOP open-sources
+
+https://hyphop.github.io/

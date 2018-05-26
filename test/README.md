@@ -1,11 +1,15 @@
 # SVG-cleaner test files
 
-+ `svg-cleaner.svg` - svg test file ![IN](svg-cleaner.svg)
-+ `svg-cleaned.svg` - optimized svg file ![OUT](svg-cleaned.svg)
+next files have different content but must same rendered on screen
+
++ `svg-cleaner.svg` - svg test file
+![IN](svg-cleaner.svg)
++ `svg-cleaned.svg` - optimized svg file
+![OUT](svg-cleaned.svg)
 
 # SVG-cleaner test
 
-    svg-cleaner.test
+    svg-cleaner.test - simple test checked equal by `md5sum`
 
 output
 
@@ -28,4 +32,3 @@ output
 svg-cleaned.svg: OK
 svg-cleaner.svg: OK
 ```
-A
